@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PUP-CpE Thesis Database</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script type="text/javascript" src='static/jquery-1.11.3.js'></script>
+</head>
+<body>
+<div class='main'>
+    <div class='form-section'>
+        <h3>New Thesis Entry</h3>
+        <form class="create-form">
+        <select name="year">
+            <option value="">Year</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+        </select><br/>
+        <input type="text" name= "title1" placeholder="Title" > </text><br/>
+        <textarea rows="4" cols="70" placeholder="Abstract"> </textarea><br/>
+        <input type="text" name= "adviser" placeholder="Adviser" > </text><br/>
+        <select name="section">
+            <option value="">Section</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br/>
+        <div><font face="Century Gothic"><input type="submit" value= "Submit" > </text></div>
+<!--         <a href="{{ url|safe }}">{{ url_linktext }}</a> -->
+        <p class="logout"><a href="{{logout_url}}">Logout</a></p>
+
+    </div>
+    <div class='list-section'>
+        <h3><font face ="Century Gothic" align="left">Thesis List</h3>
+        <ol class="thesis-list"></ol>
+<!--         <h3 class="list-title">THESIS LIST</h3>
+        <ul class="thesis-list"></ul> -->
+    </div>
+</div>
+
+
+<script type="text/javascript" src='/static/script.js'></script>
+</body>
+</html>
