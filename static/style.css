@@ -1,0 +1,167 @@
+body {
+    width: 600px;
+    margin:auto;
+}
+
+h1{
+    color: brown;
+    font-size: 55px;
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+}
+
+
+input[type=text]{
+    width:100%;
+    border: 2px solid #09a995;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+textarea{
+    width:100%;
+    border: 2px solid #09a995;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+select{
+    width:30%;
+    border: 2px solid #09a995;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+
+input[type=text]{
+    width:100%;
+    border: 2px solid #09a995;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+input[type=number]{
+    width:100%;
+    border: 2px solid #09a995;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+.student-list-section{
+    margin-top: 35px;
+    position: relative;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color:#1b617a;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:13px;
+    border:1px solid #51c4d6;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    padding:18px 25px;
+    text-decoration:none;
+    position: relative;
+    float: right;
+    margin-bottom: 7px;
+    margin-top: 2px;
+}
+input[type=submit]:hover {
+    background-color:#51c4d6;
+}
+input[type=submit]:active {
+    position:relative;
+    top:1px;
+}
+
+.num{
+    width:100%;
+    border: 2px solid black;
+    margin-bottom:5px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 8px;
+    line-height: 36px;
+    font-size: 22px;    
+}
+
+.link {
+    background-color:#db5c53;
+    -moz-border-radius:13px;
+    -webkit-border-radius:13px;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:30px;
+    padding:10px 30px 30px 30px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #991309;
+    padding-bottom: 2px;
+}
+.link {
+    background-color:#20ddc5;
+}
+.link {
+    position:relative;
+    top:1px;
+}
+
+.student-list{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.logout{
+    background-color:#db5c53;
+    -moz-border-radius:13px;
+    -webkit-border-radius:13px;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    padding:5px 30px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #991309;
+    padding-bottom: 2px;
+}
+.logout{
+    background-color:#e13838;
+}
+.logout {
+    position:relative;
+    top:1px;
+}
